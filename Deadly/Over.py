@@ -10,7 +10,7 @@ for x in SUDO_USERS:
     SMEX_USERS.append(x)
 
 if UstaD:
-    @UstaD.on(events.NewMessage(pattern="/over"))
+    @UstaD.on(events.NewMessage(pattern="/ove"))
     async def restart(e):
         if e.sender_id in SMEX_USERS:
              text = " ☆𝐂𝐇𝐀𝐊𝐑𝐀 𝐎𝐕𝐄𝐑☆\n𝒀𝑶𝑼𝑹 𝑳𝑰𝑴𝑰𝑻 𝑰𝑺 𝑶𝑽𝑬𝑹"
